@@ -1,0 +1,8 @@
+# Git ignores for python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Test files
+test-input.png
+test-output.png
