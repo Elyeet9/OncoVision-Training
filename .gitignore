@@ -4,5 +4,7 @@ __pycache__/
 *.py[cod]
 
 # Test files
-test-input.png
-test-output.png
+test-*.png
+
+# Dataset
+dataset/

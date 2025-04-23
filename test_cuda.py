@@ -1,4 +1,4 @@
-from filters.adaptiveBilateralFilter import adaptiveBilateralFilter
+from filters.cuda import adaptiveBilateralFilter
 import cv2
 import time
 
@@ -13,4 +13,4 @@ filtered_img = adaptiveBilateralFilter(img)
 end_time = time.time() - start_time
 print(f'Filter applied in {end_time:.2f} seconds.')
 
-cv2.imwrite('test-output.png', filtered_img)
+cv2.imwrite('test-output-cuda.png', filtered_img)
